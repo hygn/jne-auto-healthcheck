@@ -12,7 +12,7 @@ def job():
             today = date.today()
             print(catcher + " " + str(today)
         except
-            print('index out of range'
+            print('exception occured')
             pass
 schedule.every().day.at("07:30").do(job)
 while True:
