@@ -10,5 +10,11 @@ add credentials to credentials.csv file like
 ```
 and  
 ```
-python3 schedule-run.py
+python3 schedule-run.py schedule
+``` 
+for scheduled run  
+or  
 ```
+python3 schedule-run.py run
+```
+for one time run
