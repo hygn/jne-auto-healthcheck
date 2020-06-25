@@ -11,7 +11,7 @@ def job():
             udata = i.split(',')
             catcher = sender(udata[0], udata[1], udata[2])
             today = date.today()
-            print(catcher + " " + str(today)
+            print(catcher + " " + str(today))
         except:
             print('exception occured')
             pass
