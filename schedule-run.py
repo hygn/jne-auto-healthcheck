@@ -10,7 +10,7 @@ def job():
         catcher = sender(udata[0], udata[1], udata[2])
         today = date.today()
         print(catcher + " " + str(today))
-schedule.every().day.at("7:30").do(job)
+schedule.every().day.at("07:30").do(job)
 while True:
     schedule.run_pending()
     time.sleep(30)
