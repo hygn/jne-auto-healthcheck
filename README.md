@@ -1,3 +1,5 @@
+# Disclaimer
+## USE AT YOUR OWN RISK
 # JNE auto healthcheck
 
 health check automation
