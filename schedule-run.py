@@ -14,7 +14,6 @@ def job():
             print(catcher + " " + str(today))
         except:
             print('exception occured')
-            pass
 if sys.argv[1] == 'schedule':
     schedule.every().day.at("07:30").do(job)
     while True:
